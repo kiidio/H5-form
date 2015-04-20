@@ -1,0 +1,93 @@
+@charset "UTF-8";
+body{ margin:0 auto; width:1000px; background:url(img/bg.gif);}
+.lion{margin:69px auto 0px auto; width:90px;height:81px;
+/*safari and chrome*/
+-webkit-animation-name:track1;
+-webkit-animation-duration:2s;
+-webkit-animation-timing-function:ease-out;
+-webkit-animation-iteration-count:infinite;
+
+}
+@-webkit-keyframes track1{
+	
+	0%{margin:69px auto 0px auto;}
+	50%
+	{margin:59px auto 0px auto;}
+	100%{margin:69px auto 0px auto;}
+}
+.loginbox{
+	 margin: auto;width:420px;height:620px; background-color:#f6e3aa;
+	 -webkit-box-shadow:0 6px 30px rgba(0,0,0,.5);
+	 box-shadow:0 6px 30px rgba(0,0,0,.5);
+	  border:3px solid #eaeaea;
+	  -webkit-border-top-left-radius:30px; 
+	 
+	}
+	.hr{border-top:10px solid #a1905b;}/* CSS Document */
+
+form#register legend {
+	color: #384313;
+	font: normal 16px "微软雅黑";
+	font-weight: bold;
+	padding-bottom: 10px;
+	
+}
+form#register ol  li {
+	background: none;
+	border: none;
+	list-style:none;
+}
+form#register label {
+	float: left;
+	font: normal 13px "黑体";
+	width: 110px;
+}
+form#register fieldset fieldset label {
+	background:none no-repeat left 50%;
+	line-height: 20px;
+	padding: 0 0 0 30px;
+	width: auto;
+}
+
+
+form button {
+	background: #384313;
+	border: none;
+	-moz-border-radius: 20px;
+	-webkit-border-radius: 20px;
+	-khtml-border-radius: 20px;
+	border-radius: 20px;
+	color: #ffffff;
+	display: block;
+	font: 18px Georgia, "Times New Roman", Times, serif;
+	letter-spacing: 1px;
+	margin: 10px auto;
+	padding: 7px 25px;
+	text-shadow: 0 1px 1px #000000;
+	
+}
+form button:hover {
+	background: #1e2506;
+	cursor: pointer;
+}
+form#register input:not([type=radio]),
+form#register textarea {
+	background: #ffffff;
+	border: none;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	-khtml-border-radius: 3px;
+	border-radius: 3px;
+	font: normal 13px "黑体";
+	outline: none;
+	padding: 5px;
+	margin:0px 0px  5px 0px;
+	width: 200px;
+}
+form#register input:not([type=submit]):focus,
+form#register textarea:focus {
+	background: #eaeaea;
+}
+
+
+#register{margin:20px 0px 0px 0px;}
